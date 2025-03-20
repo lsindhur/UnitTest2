@@ -1,0 +1,110 @@
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffeae0;
+    margin-inline:100px;
+    block-size:100vh;
+    font-family: sans-serif;
+}
+
+.navDiv {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block:30px;
+}
+
+
+.navDiv li {
+    list-style: none;
+    display:inline-block;
+    margin-inline-start: 20px;
+    text-decoration: none;
+}
+
+.logo span{
+    color:#ff511c;
+    font-weight: bold;
+}
+
+.navDiv li a {
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+}
+
+.navDiv li:hover{
+    border-block-end:2px solid #ff511c;
+}
+
+.buttons {
+    all:unset;
+   margin-inline-start:20px;
+   background-color: #ff511c;
+   color:white;
+   padding-inline:8px;
+   padding-block:8px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.buttons:hover{
+    background-color: #e2460f;
+}
+
+.sign-in {
+    background-color: transparent;
+    color: black;
+    border:1px solid black;
+}
+
+.sign-in:hover{
+    background-color: black;
+    color:white;
+}
+
+.content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:100%;
+    margin-block-start: 80px;
+}
+
+.content-left h2 {
+    font-size: 60px;
+    margin-block-end: 30px;
+}
+
+.content-left h2::before{
+    content:'🍽️'
+}
+
+.content-left p {
+    font-size: 24px;
+    line-height: 2pc;
+    margin-block-end: 30px;
+}
+
+.content-right{ 
+    max-width: 50%;
+}
+
+.content-left .buttons {
+    margin-inline-start: 0;
+}
+
+
+.content-right img {
+    max-width:700px;
+}
+
+
+
